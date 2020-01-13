@@ -49,7 +49,7 @@ make
 make run
 ```
 
-#Basic instruction in main.cpp
+# Basic instruction in main.cpp
 * create a skybox
 Skybox skybox
 
@@ -69,4 +69,6 @@ Alphabot alphabot
 * get cube_as_ground(view, projection, size_of_the_ground) and get cube_as_obstacle(view, projection, cubePositions, length_of_cubePositions) change the settings.
 
 * Camera.move() and alphabot.generate() are essential they change make the camera or alphabot move if the position target is different than the actual position
+
+the file stb_image.h is from https://github.com/nothings/stb/blob/master/stb_image.h
 
